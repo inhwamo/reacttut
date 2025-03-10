@@ -12,6 +12,7 @@ const Home = () => {
       id: 3,
     },
   ]);
+
   return (
     <div className="home">
       <BlogList blogs={blogs} />
